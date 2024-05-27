@@ -11,15 +11,7 @@
 
     {"firstName": "Irene",
 
-    "lastName": "Capitano",
-
-    "Id": 1,
-
-    "Age": 16,
-
-    "movesInTheField": "Intermediate",
-
-    "freeSkateLevel": "Preliminary"
+    "lastName": "Capitano"
     },
 
     {
@@ -49,26 +41,58 @@
 
     "lastName": "Furlong"
 
-    }
-],
-
-    "Attendance": {
-    "Practices": {
-    "May 7th, 2024 Practice": [],
-            "May 14th, 2024 Practice": [],
-            "May 21st, 2024 Practice": []
     },
-        
-        "Exhibitions": {
-            "May 18th, 2024 Exhibition CE": [],
-            "May 19th, 2024 Exhibition Freeskate": []
-        },
 
-        "Nationals": {
+    {"firstName": "Emersen",
+    "lastName": "Frandsen"
+    },
+
+    {"firstName": "Claudia",
+    "lastName": "Jones"
+    },
+
+    {"firstName": "Ella Grace",
+    "lastName": "Jones"
+    },
+
+    {"firstName": "Julianna",
+    "lastName": "Heallen"
+    },
+
+    {"firstName": "Coach Karla",
+    "lastName": "Atwood"
+    },
+
+    {"firstName": "Coach Shanyn",
+    "lastName": "Vallon"
+    },
+
+    {"firstName": "Paige",
+    "lastName": "Hayes"
+    },
+
+    {"firstName": "Limulaki Paluvai",
+    "lastName": "Davis"
+    },
+
+    {"firstName": "Sophia",
+    "lastName": "Rosenbaum"
+    },
+
+    {"firstName": "Carolina",
+    "lastName": "Laronga"
+    },
+
+    {"firstName": "Taylia",
+    "lastName": "McGhee"
+    },
+
+    {"firstName": "Camella",
+    "lastName": "Brown"
+    }
+]
     }
 
-    }
-}
 
 
 

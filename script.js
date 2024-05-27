@@ -1,4 +1,5 @@
-let Players = {}
+let Players = {};
+let reference = ["attendance.html"];
 
 function searchPlayer(id){
     for (let i = 0; i < data.json; ++i){
@@ -33,8 +34,11 @@ async function searchForPlayer() {
     Players = players.Players;
 }
 
-function goToWebsite() {
+function goToWebsite(player) {
     console.log("the user was able to go to the website");
+    console.log(player);
+    localStorage.setItem('player', JSON.stringify(player));
+    window.location.href = 'http://127.0.0.1:5500/attendance.html'
 }
 
 async function runProgram(){    
@@ -52,8 +56,9 @@ async function runProgram(){
         nameButtons.classList.add("btn-success");
         nameButtons.textContent = player.firstName+" "+player.lastName;
         //console.log("buttons are being made");
+        //nameButtons.href= reference;
 
-        nameButtons.addEventListener('click', goToWebsite(this, player));
+        nameButtons.addEventListener('click', goToWebsite.bind(this, player));
 
         myButtonContainer.appendChild(nameButtons);
     }
